@@ -1,0 +1,22 @@
+artifact_path: file:///E:/_Cursos/Tareas_Proyectos_y_Notas/Soy Henry/DSM5/PI_M5/mlruns/1/models/m-be08a9b1064844c3995c213c9d8173ac/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-be08a9b1064844c3995c213c9d8173ac
+model_size_bytes: 1200
+model_uuid: m-be08a9b1064844c3995c213c9d8173ac
+prompts: null
+run_id: ea2587f4609f407bb1b36f5ec27e49e2
+utc_time_created: '2025-12-13 07:09:47.042488'
